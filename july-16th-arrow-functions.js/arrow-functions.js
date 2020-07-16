@@ -1,4 +1,5 @@
 //Converting standard functions to arrow functions
+//This lesson was based off Web Dev Simplifieds video https://www.youtube.com/watch?v=h33Srr5J9nY.
 
 // 1. Named Function with multiple parameters
 function sum(a,b) {

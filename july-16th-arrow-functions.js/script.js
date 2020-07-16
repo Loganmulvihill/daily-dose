@@ -1,3 +1,5 @@
+//This lesson was based off Web Dev Simplifieds video https://www.youtube.com/watch?v=h33Srr5J9nY.
+
 class Person {
   constructor(name) {
     this.name = name
