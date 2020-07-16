@@ -37,10 +37,24 @@ function randomNumber(){
   return Math.random
 }
 
+//Arrow Function Format
+let randomNumber = () = {
+  return Math.random;
+}
+//or
+let randomNumber = () = Math.random;
+
 //4.Anonymous function
 document.addEventListener('click', function(){
   console.log('Click')
 })
+
+//Arrow Format
+document.addEventListener('click', () => {
+  console.log('Click')
+})
+//or
+document.addEventListener('click', () => console.log('Click'))
 
 
 //Steps to change named function to arrow function
