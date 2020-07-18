@@ -93,19 +93,16 @@ function stopwatch() {
     this.time++;
     console.log(this.time);
   }, 1000);
-
 }
 
 let timer = new stopwatch();
 //Arrow Function Syntax
 let stopwatch() => {
   this.time = 0;
-
   setInterval(() => {
     this.time++;
     console.log(this.time);
   }, 1000);
-
 }
 
 let timer = new stopwatch();
