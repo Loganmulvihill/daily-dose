@@ -1,2 +1,4 @@
-fetch('https://cors-anywhere.herokuapp.com/https://regres.in/api/users')
-  .then( res => console.log(res))
+fetch('https://reqres.in/api/users/23')
+  .then( res => res.json())
+  .then(data => console.log(data))
+  catch(error => console.log('error'))
